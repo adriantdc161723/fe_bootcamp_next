@@ -1,0 +1,66 @@
+.post{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.post_header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1em;
+}
+.post_footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: end;
+}
+
+.post_id{
+    font-weight: bolder;
+}
+
+.post_userid{
+    font-style: italic;
+    color: rgb(68, 68, 68);
+}
+
+.post_body{
+    padding: 1em;
+}
+
+.post_title{
+    color: indigo;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.comment_box{
+    padding: 5rem;
+}
+.post_comment_title{
+    padding-inline: 1em;
+    font-weight: bold;
+}
+
+
+.post_comment{
+    margin-top: 1em;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.post_comment_header{
+    padding: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.post_comment_body{
+    padding: 1em;
+}
+
+/* .post_comment_name{
+
+} */
+
+.post_comment_email{
+    float: right;
+}
